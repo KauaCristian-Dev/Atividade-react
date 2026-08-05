@@ -22,31 +22,42 @@
   position: relative;
 }
 
+.div-ident{
+  border-radius: 25px 25px 0px 0px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 60px;
+  width: 45rem;
+  background-color: rgb(117, 40, 136);
+}
+
+.div-ident h1{
+  color: rgb(175, 175, 175);
+}
+
 .div-buttom{
   border-radius: 0px 0px 25px 25px;
   justify-content: center;
+  align-items: center;
   display: flex;
+  height: 60px;
   width: 45rem;
   background-color: rgb(117, 40, 136);;
 }
 
 .div-input{
   display: flex;
+  filter: drop-shadow(0px 0px 10px  black);
   background-color: rgb(117, 40, 136);
-  height: 400px;
+  height: 300px;
   width: 45rem;
-  margin-top: 20px;
   border: 0px 1.5px 1.5px solid black;
-  border-radius: 25px 25px 0px 0px;
+  /* border-radius: 25px 25px 0px 0px; */
   justify-content: center;
   align-items: center;
   position:relative;
   flex-direction: column;
-}
-
-.div-input h1{
-  display: flex;
-  padding:10px;
 }
 
 .div-input label{
@@ -74,12 +85,26 @@
 
 
 .div-lista{
+  display: flex;
   background-color: rgb(117, 40, 136);
   width: 50rem;
   height: 85vh;
+  margin: 30px;
   border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  filter: drop-shadow(0px 0px 10px black);
 }
 
-.list li{
-  color: black;
+.list{
+  height: 36rem;
+  margin: 20px;
+  width: 40rem;
+  border-radius: 25px;
+  border: 1.5px solid black ;
+  background-color: rgba(78, 4, 62, 0.719);
+  backdrop-filter: blur(50px);
+  font-size: 28px;
+
 }

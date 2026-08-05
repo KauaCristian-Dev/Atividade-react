@@ -35,8 +35,9 @@ function handleSalvar(){
   return <>
   <div className="div-flex">
     <div className="div-flex-input">
+      <div className="div-ident"> <h1>Cadastro de Pessoas</h1></div>
       <div className="div-input">
-        <h1>Cadastro de Pessoas</h1>
+       
         <label htmlFor="cpnome"> Nome: </label>
         <input 
         id="cpnome"
@@ -59,6 +60,7 @@ function handleSalvar(){
     </div>
     <div className="div-lista-flex">
       <div className="div-lista">
+        <h1>Lista de Pessoas</h1>
         <ul className="list">
           {pessoas.map(function (item) {
             return (
