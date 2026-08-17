@@ -1,0 +1,1 @@
+export type Pessoa = {nome:string, idade:number};
